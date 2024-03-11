@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1200px;
+    height: 100px;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    background: rgb(153, 190, 190)  
+}
+.main h1{
+    color: rgb(172, 44, 44);
+}
+.main2 h1{
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(190, 147, 140);
+}
+.main3{
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(241, 227, 227);
+}
+.Attendance{
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.Attendance-list{
+    width: 98.5%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+table thead tr{
+    color: aquamarine;
+    background: green;
+    text-align: left;
+    font-weight: bold;
+}
+.table th,
+.table td{
+    padding: 12px 15px;
+}
+.table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+.table tbody tr:nth-last-of-type(odd){
+    background: #f3f3f3;
+}
+.table tbody tr.active{
+    font-weight: bold;
+    color: #4ADA89;
+}
+.table tbody tr:last-of-type{
+    border-bottom: 2px solid #4ADA89;
+}
+.table button{
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #4ADA89;
+}
+.table button:hover{
+    background: #4ADA89;
+    color: #f3f3f3;
+    transition: 0.5rem;
+}
